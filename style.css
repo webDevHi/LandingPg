@@ -1,0 +1,29 @@
+.nav-bar-left {
+    display: flex;
+    justify-content:flex-end;
+    gap: 15px;
+    margin: -30px 120px 0px 0px;
+    list-style: none;
+}
+
+.nav-bar-right {
+    display:flex;
+    margin-left: 100px;
+    font-size:medium
+}
+
+.duo-card {
+    border-style: dashed;
+    border-color: blue;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.top-card {
+    border-style: dashed;
+}
+
+.duo-left{
+    flex-grow: 1;1
+}
