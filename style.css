@@ -1,29 +1,55 @@
-.nav-bar-left {
+.nav-bar-right {
     display: flex;
     justify-content:flex-end;
-    gap: 15px;
     margin: -30px 120px 0px 0px;
+    gap: 15px;
     list-style: none;
+    padding-right: -333px;
 }
 
-.nav-bar-right {
+.nav-bar-left {
     display:flex;
     margin-left: 100px;
-    font-size:medium
+    font-size:medium;
 }
 
 .duo-card {
-    border-style: dashed;
     border-color: blue;
     display:flex;
     flex-direction: row;
+    margin: 35px 100px 0px 100px;
+    margin-top: 70px;
+    padding-bottom: 75px;
 
 }
 
 .top-card {
     border-style: dashed;
+    background:darksalmon;
+}
+
+.duo-right {
+    background:bisque;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .duo-left{
-    flex-grow: 1;1
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    padding-right: -30px;
+}
+p {
+    margin-top: -25px;
+}
+#sign-up {
+    border-radius: 7px;
+    border: none;
+    margin-top: -15px;
+    color: white;
+    background: orangered;
+    padding: 5px 25px 5px 25px;
 }
