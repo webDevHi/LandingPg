@@ -14,17 +14,14 @@
 }
 
 .duo-card {
-    border-color: blue;
     display:flex;
     flex-direction: row;
     margin: 35px 100px 0px 100px;
     margin-top: 70px;
     padding-bottom: 75px;
-
 }
 
 .top-card {
-    border-style: dashed;
     background:darksalmon;
 }
 
@@ -52,4 +49,32 @@ p {
     color: white;
     background: orangered;
     padding: 5px 25px 5px 25px;
+}
+
+.Sqr-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.square {
+    border-style:solid;
+    border-color: darksalmon;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#Card2-title {
+    display: flex;
+    justify-content: center;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size:15px;
+}
+.text {
+    width: 100px;
 }
