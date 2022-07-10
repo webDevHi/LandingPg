@@ -78,3 +78,67 @@ p {
 .text {
     width: 100px;
 }
+
+.inspirational-container{
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    background:#E5E7EB;
+    flex-direction: column;
+}
+
+#inspo-quote {
+    padding: 100px 100px 100px 50px;
+    font-size: 28px;
+    color: #1F2937;
+}
+
+#Thor {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    left: 555px;
+    top: -105px;
+}
+
+#call-container {
+    background: white;
+}
+.call-child {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 50px;
+    background: #3882F6;
+    border-radius: 10px;
+}
+.call-text-container {
+    display:flex;
+    flex-direction:column-reverse;
+    color: white;
+    padding: 25px 0px 0px 25px;
+}
+#call-title {
+    font-weight: bold;
+    font-size:24px;
+}
+#call-button{
+    font-weight:bold;
+    font-size: 18px;
+    color: white;
+    border-radius:10px;
+    background:#3882F6;
+    padding: 0px 30px 0px 30px;
+    border-style:fill;
+    border-color: white;
+    border-width: 3px;
+    margin: 10px 0px 10px 0px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-weight: 450;
+    background:#1F2937;
+    padding: 20px;
+}
